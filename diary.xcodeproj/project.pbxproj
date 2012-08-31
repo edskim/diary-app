@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64FCB98215EFE68C000A0112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FCB98115EFE68C000A0112 /* UIKit.framework */; };
+		64FCB98415EFE68C000A0112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FCB98315EFE68C000A0112 /* Foundation.framework */; };
+		64FCB98615EFE68C000A0112 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FCB98515EFE68C000A0112 /* CoreGraphics.framework */; };
+		64FCB98C15EFE68C000A0112 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB98A15EFE68C000A0112 /* InfoPlist.strings */; };
+		64FCB98E15EFE68C000A0112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB98D15EFE68C000A0112 /* main.m */; };
+		64FCB99215EFE68C000A0112 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB99115EFE68C000A0112 /* AppDelegate.m */; };
+		64FCB99515EFE68C000A0112 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB99415EFE68C000A0112 /* ViewController.m */; };
+		64FCB99815EFE68C000A0112 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB99615EFE68C000A0112 /* ViewController.xib */; };
+		64FCB9A115F00A9B000A0112 /* NewEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB99F15F00A9B000A0112 /* NewEntryViewController.m */; };
+		64FCB9A215F00A9B000A0112 /* NewEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9A015F00A9B000A0112 /* NewEntryViewController.xib */; };
+		64FCB9A415F00B92000A0112 /* HannahMontana-641144.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9A315F00B92000A0112 /* HannahMontana-641144.jpeg */; };
+		64FCB9AB15F018A1000A0112 /* DiaryDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB9A915F018A1000A0112 /* DiaryDataModel.xcdatamodeld */; };
+		64FCB9AE15F01938000A0112 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB9AD15F01938000A0112 /* Entry.m */; };
+		64FCB9B115F01984000A0112 /* DiaryEntryDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB9B015F01984000A0112 /* DiaryEntryDataStore.m */; };
+		64FCB9B515F0215F000A0112 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FCB9B415F0215F000A0112 /* CoreData.framework */; };
+		64FCB9B815F02469000A0112 /* hm-button-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9B615F02469000A0112 /* hm-button-down.png */; };
+		64FCB9B915F02469000A0112 /* hm-button-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9B715F02469000A0112 /* hm-button-normal.png */; };
+		64FCB9CD15F03AE9000A0112 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FCB9CC15F03AE9000A0112 /* QuartzCore.framework */; };
+		64FCB9D115F03D85000A0112 /* hm-toolbar-button-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9CE15F03D84000A0112 /* hm-toolbar-button-down.png */; };
+		64FCB9D215F03D85000A0112 /* hm-toolbar-button-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9CF15F03D84000A0112 /* hm-toolbar-button-normal.png */; };
+		64FCB9D315F03D85000A0112 /* hm-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9D015F03D85000A0112 /* hm-toolbar.png */; };
+		64FCB9D515F05192000A0112 /* view-with-bubble-cut-out.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9D415F05191000A0112 /* view-with-bubble-cut-out.png */; };
+		64FCB9D915F051B0000A0112 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB9D715F051B0000A0112 /* EntryViewController.m */; };
+		64FCB9DA15F051B0000A0112 /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9D815F051B0000A0112 /* EntryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64FCB97D15EFE68C000A0112 /* diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FCB98115EFE68C000A0112 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64FCB98315EFE68C000A0112 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64FCB98515EFE68C000A0112 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64FCB98915EFE68C000A0112 /* diary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "diary-Info.plist"; sourceTree = "<group>"; };
+		64FCB98B15EFE68C000A0112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64FCB98D15EFE68C000A0112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64FCB98F15EFE68C000A0112 /* diary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diary-Prefix.pch"; sourceTree = "<group>"; };
+		64FCB99015EFE68C000A0112 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64FCB99115EFE68C000A0112 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64FCB99315EFE68C000A0112 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64FCB99415EFE68C000A0112 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64FCB99715EFE68C000A0112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		64FCB99E15F00A9B000A0112 /* NewEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEntryViewController.h; sourceTree = "<group>"; };
+		64FCB99F15F00A9B000A0112 /* NewEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEntryViewController.m; sourceTree = "<group>"; };
+		64FCB9A015F00A9B000A0112 /* NewEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewEntryViewController.xib; sourceTree = "<group>"; };
+		64FCB9A315F00B92000A0112 /* HannahMontana-641144.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HannahMontana-641144.jpeg"; sourceTree = "<group>"; };
+		64FCB9AA15F018A1000A0112 /* DiaryDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiaryDataModel.xcdatamodel; sourceTree = "<group>"; };
+		64FCB9AC15F01938000A0112 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		64FCB9AD15F01938000A0112 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		64FCB9AF15F01984000A0112 /* DiaryEntryDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryEntryDataStore.h; sourceTree = "<group>"; };
+		64FCB9B015F01984000A0112 /* DiaryEntryDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntryDataStore.m; sourceTree = "<group>"; };
+		64FCB9B415F0215F000A0112 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64FCB9B615F02469000A0112 /* hm-button-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hm-button-down.png"; sourceTree = "<group>"; };
+		64FCB9B715F02469000A0112 /* hm-button-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hm-button-normal.png"; sourceTree = "<group>"; };
+		64FCB9CC15F03AE9000A0112 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64FCB9CE15F03D84000A0112 /* hm-toolbar-button-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hm-toolbar-button-down.png"; sourceTree = "<group>"; };
+		64FCB9CF15F03D84000A0112 /* hm-toolbar-button-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hm-toolbar-button-normal.png"; sourceTree = "<group>"; };
+		64FCB9D015F03D85000A0112 /* hm-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hm-toolbar.png"; sourceTree = "<group>"; };
+		64FCB9D415F05191000A0112 /* view-with-bubble-cut-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-with-bubble-cut-out.png"; sourceTree = "<group>"; };
+		64FCB9D615F051B0000A0112 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		64FCB9D715F051B0000A0112 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		64FCB9D815F051B0000A0112 /* EntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FCB97A15EFE68C000A0112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FCB9CD15F03AE9000A0112 /* QuartzCore.framework in Frameworks */,
+				64FCB9B515F0215F000A0112 /* CoreData.framework in Frameworks */,
+				64FCB98215EFE68C000A0112 /* UIKit.framework in Frameworks */,
+				64FCB98415EFE68C000A0112 /* Foundation.framework in Frameworks */,
+				64FCB98615EFE68C000A0112 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64FCB97215EFE68C000A0112 = {
+			isa = PBXGroup;
+			children = (
+				64FCB98715EFE68C000A0112 /* diary */,
+				64FCB98015EFE68C000A0112 /* Frameworks */,
+				64FCB97E15EFE68C000A0112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FCB97E15EFE68C000A0112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FCB97D15EFE68C000A0112 /* diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FCB98015EFE68C000A0112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64FCB9CC15F03AE9000A0112 /* QuartzCore.framework */,
+				64FCB9B415F0215F000A0112 /* CoreData.framework */,
+				64FCB98115EFE68C000A0112 /* UIKit.framework */,
+				64FCB98315EFE68C000A0112 /* Foundation.framework */,
+				64FCB98515EFE68C000A0112 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64FCB98715EFE68C000A0112 /* diary */ = {
+			isa = PBXGroup;
+			children = (
+				64FCB9D415F05191000A0112 /* view-with-bubble-cut-out.png */,
+				64FCB9CE15F03D84000A0112 /* hm-toolbar-button-down.png */,
+				64FCB9CF15F03D84000A0112 /* hm-toolbar-button-normal.png */,
+				64FCB9D015F03D85000A0112 /* hm-toolbar.png */,
+				64FCB9B615F02469000A0112 /* hm-button-down.png */,
+				64FCB9B715F02469000A0112 /* hm-button-normal.png */,
+				64FCB9A315F00B92000A0112 /* HannahMontana-641144.jpeg */,
+				64FCB99015EFE68C000A0112 /* AppDelegate.h */,
+				64FCB99115EFE68C000A0112 /* AppDelegate.m */,
+				64FCB9A915F018A1000A0112 /* DiaryDataModel.xcdatamodeld */,
+				64FCB9AF15F01984000A0112 /* DiaryEntryDataStore.h */,
+				64FCB9B015F01984000A0112 /* DiaryEntryDataStore.m */,
+				64FCB9AC15F01938000A0112 /* Entry.h */,
+				64FCB9AD15F01938000A0112 /* Entry.m */,
+				64FCB9D615F051B0000A0112 /* EntryViewController.h */,
+				64FCB9D715F051B0000A0112 /* EntryViewController.m */,
+				64FCB9D815F051B0000A0112 /* EntryViewController.xib */,
+				64FCB99315EFE68C000A0112 /* ViewController.h */,
+				64FCB99415EFE68C000A0112 /* ViewController.m */,
+				64FCB99615EFE68C000A0112 /* ViewController.xib */,
+				64FCB99E15F00A9B000A0112 /* NewEntryViewController.h */,
+				64FCB99F15F00A9B000A0112 /* NewEntryViewController.m */,
+				64FCB9A015F00A9B000A0112 /* NewEntryViewController.xib */,
+				64FCB98815EFE68C000A0112 /* Supporting Files */,
+			);
+			path = diary;
+			sourceTree = "<group>";
+		};
+		64FCB98815EFE68C000A0112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64FCB98915EFE68C000A0112 /* diary-Info.plist */,
+				64FCB98A15EFE68C000A0112 /* InfoPlist.strings */,
+				64FCB98D15EFE68C000A0112 /* main.m */,
+				64FCB98F15EFE68C000A0112 /* diary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FCB97C15EFE68C000A0112 /* diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FCB99B15EFE68C000A0112 /* Build configuration list for PBXNativeTarget "diary" */;
+			buildPhases = (
+				64FCB97915EFE68C000A0112 /* Sources */,
+				64FCB97A15EFE68C000A0112 /* Frameworks */,
+				64FCB97B15EFE68C000A0112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diary;
+			productName = diary;
+			productReference = 64FCB97D15EFE68C000A0112 /* diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FCB97415EFE68C000A0112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = AppAcademy;
+			};
+			buildConfigurationList = 64FCB97715EFE68C000A0112 /* Build configuration list for PBXProject "diary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64FCB97215EFE68C000A0112;
+			productRefGroup = 64FCB97E15EFE68C000A0112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FCB97C15EFE68C000A0112 /* diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FCB97B15EFE68C000A0112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FCB98C15EFE68C000A0112 /* InfoPlist.strings in Resources */,
+				64FCB99815EFE68C000A0112 /* ViewController.xib in Resources */,
+				64FCB9A215F00A9B000A0112 /* NewEntryViewController.xib in Resources */,
+				64FCB9A415F00B92000A0112 /* HannahMontana-641144.jpeg in Resources */,
+				64FCB9B815F02469000A0112 /* hm-button-down.png in Resources */,
+				64FCB9B915F02469000A0112 /* hm-button-normal.png in Resources */,
+				64FCB9D115F03D85000A0112 /* hm-toolbar-button-down.png in Resources */,
+				64FCB9D215F03D85000A0112 /* hm-toolbar-button-normal.png in Resources */,
+				64FCB9D315F03D85000A0112 /* hm-toolbar.png in Resources */,
+				64FCB9D515F05192000A0112 /* view-with-bubble-cut-out.png in Resources */,
+				64FCB9DA15F051B0000A0112 /* EntryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FCB97915EFE68C000A0112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FCB98E15EFE68C000A0112 /* main.m in Sources */,
+				64FCB99215EFE68C000A0112 /* AppDelegate.m in Sources */,
+				64FCB99515EFE68C000A0112 /* ViewController.m in Sources */,
+				64FCB9A115F00A9B000A0112 /* NewEntryViewController.m in Sources */,
+				64FCB9AB15F018A1000A0112 /* DiaryDataModel.xcdatamodeld in Sources */,
+				64FCB9AE15F01938000A0112 /* Entry.m in Sources */,
+				64FCB9B115F01984000A0112 /* DiaryEntryDataStore.m in Sources */,
+				64FCB9D915F051B0000A0112 /* EntryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64FCB98A15EFE68C000A0112 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FCB98B15EFE68C000A0112 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64FCB99615EFE68C000A0112 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FCB99715EFE68C000A0112 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64FCB99915EFE68C000A0112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64FCB99A15EFE68C000A0112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64FCB99C15EFE68C000A0112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diary/diary-Prefix.pch";
+				INFOPLIST_FILE = "diary/diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64FCB99D15EFE68C000A0112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diary/diary-Prefix.pch";
+				INFOPLIST_FILE = "diary/diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FCB97715EFE68C000A0112 /* Build configuration list for PBXProject "diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FCB99915EFE68C000A0112 /* Debug */,
+				64FCB99A15EFE68C000A0112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FCB99B15EFE68C000A0112 /* Build configuration list for PBXNativeTarget "diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FCB99C15EFE68C000A0112 /* Debug */,
+				64FCB99D15EFE68C000A0112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64FCB9A915F018A1000A0112 /* DiaryDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64FCB9AA15F018A1000A0112 /* DiaryDataModel.xcdatamodel */,
+			);
+			currentVersion = 64FCB9AA15F018A1000A0112 /* DiaryDataModel.xcdatamodel */;
+			path = DiaryDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64FCB97415EFE68C000A0112 /* Project object */;
+}
