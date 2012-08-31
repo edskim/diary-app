@@ -37,7 +37,9 @@
 {
     [super viewDidLoad];
     self.textView.text = text;
-    self.pictureImageView.image = self.picture;
+    //self.pictureImageView.image = self.picture;
+    self.pictureImageView.contentMode = UIViewContentModeScaleAspectFill;
+    self.pictureImageView.image = [UIImage imageNamed:@"ned.png"];
 }
 
 - (void)viewDidUnload

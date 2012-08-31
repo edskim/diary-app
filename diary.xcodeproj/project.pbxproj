@@ -31,6 +31,7 @@
 		64FCB9D515F05192000A0112 /* view-with-bubble-cut-out.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9D415F05191000A0112 /* view-with-bubble-cut-out.png */; };
 		64FCB9D915F051B0000A0112 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB9D715F051B0000A0112 /* EntryViewController.m */; };
 		64FCB9DA15F051B0000A0112 /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9D815F051B0000A0112 /* EntryViewController.xib */; };
+		64FCB9DC15F0583B000A0112 /* ned.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCB9DB15F0583A000A0112 /* ned.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		64FCB9D615F051B0000A0112 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
 		64FCB9D715F051B0000A0112 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
 		64FCB9D815F051B0000A0112 /* EntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntryViewController.xib; sourceTree = "<group>"; };
+		64FCB9DB15F0583A000A0112 /* ned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ned.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		64FCB98715EFE68C000A0112 /* diary */ = {
 			isa = PBXGroup;
 			children = (
+				64FCB9DB15F0583A000A0112 /* ned.png */,
 				64FCB9D415F05191000A0112 /* view-with-bubble-cut-out.png */,
 				64FCB9CE15F03D84000A0112 /* hm-toolbar-button-down.png */,
 				64FCB9CF15F03D84000A0112 /* hm-toolbar-button-normal.png */,
@@ -218,6 +221,7 @@
 				64FCB9D315F03D85000A0112 /* hm-toolbar.png in Resources */,
 				64FCB9D515F05192000A0112 /* view-with-bubble-cut-out.png in Resources */,
 				64FCB9DA15F051B0000A0112 /* EntryViewController.xib in Resources */,
+				64FCB9DC15F0583B000A0112 /* ned.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
